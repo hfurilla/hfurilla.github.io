@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    background-color:#A5A1B5; }
+h1 { 
+    color: #eade85;
+    background-color: #292441; 
+    padding: 1.3rem;
+    letter-spacing: 0.5rem; 
+    text-transform: uppercase;
+    font-family: "Chivo Mono", monospace;}
+p
+    {
+    margin: 1.3rem;
+    line-height: 1.5rem;
+    font-family: 'Courier New', Courier, monospace; }
+
+h2 {
+    color: #eade85;
+    background-color: #292441;
+    padding: 10px; }
+
+a:link {
+    color: #292441;
+    text-decoration: underline; }
+a:visited {
+    color: white; }
+a:hover {
+    color:black; 
+    text-decoration: underline; }
+a:active {
+    color:#eade85; }
+

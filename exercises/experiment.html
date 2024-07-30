@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position:relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: goldenrod;
+}
+
+.container:hover .overlay {
+  opacity: .85;
+}
+
+.text {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container2 img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+.container3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container4 img {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.container5 {
+  position: relative;
+}
+
+.container5 .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container5 img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<h2>Fade in Overlay</h2>
+
+<div class="container">
+  <img src="../images/biopic.jpg" alt="Biopic" class="image">
+  <div class="overlay">
+    <div class="text">Hailey Furilla</div>
+  </div>
+</div>
+
+
+<h2>Rounded Image</h2>
+<p>Use the border-radius property to create rounded images:</p>
+<div class="container2">
+<img src="../images/hciimg1.jpg" alt="Medieval Cat in Tree" width="300" height="300">
+</div>
+
+
+<h2>Responsive Image</h2>
+<p>Responsive images will automatically adjust to fit the size of the screen.</p>
+<p>Resize the browser window to see the effect:</p>
+<div class="container3">
+<img src="../images/Francois_de_Nome-00003.jpg" alt="Paitning by Francois de Nome" width="800" height="300">
+</div>
+
+
+<h2>Center an Image</h2>
+<p>To center an image, set left and right margin to auto, and make it into a block element.</p>
+<div class="container4">
+<img src="../images/e4img2.jpg" alt="Semicolon man" style="width:50%">
+</div>
+
+<h2>Image Text</h2>
+<p>Center text in image:</p>
+<div class="container5">
+  <img src="../images/hciimg2.jpg" alt="Medieval animal drawings">
+  <div class="center">Animals</div>
+</div>
+
+</body>
+</html>

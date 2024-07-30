@@ -1,0 +1,73 @@
+h1 {
+    color: black;
+    font-family: "Shadows Into Light", cursive;
+    letter-spacing: 0.25rem;
+    }
+
+body {
+    color: #202020;
+    background-color: #F7F6ED;
+    margin: 0 auto;
+    max-width: 60rem; 
+    }
+
+p {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white; 
+    padding: 1.3rem; 
+    }
+
+a.button:link {
+    color: #1666ba;
+    border: 1px solid  #368ce7;
+    background-color: #deecfb;
+    padding: 0.65rem;
+    position: relative;
+    bottom: 1.3rem;
+    border-radius: 0.65rem;
+    text-decoration: none;
+    filter: drop-shadow(.3rem .3rem 0.2rem #c7c7c7);
+    }
+
+a.button:visited {
+    color: #2E664B;
+    border: 1px solid  #2E664B;
+    background-color: #E4EDE8;
+    padding: 0.65rem;
+    position: relative;
+    bottom: 1.3rem;
+    border-radius: 0.65rem;
+    text-decoration: none;
+    filter: drop-shadow(.3rem .3rem 0.2rem #c7c7c7);
+}
+
+a.button:hover {
+    color: #FFA4C2;
+    border: 1px solid  #FFBDD3;
+    background-color: #fff0f5;
+    padding: 0.65rem;
+    position: relative;
+    bottom: 1.3rem;
+    border-radius: 0.65rem;
+    text-decoration: none;
+    filter: drop-shadow(.3rem .3rem 0.2rem #c7c7c7);  
+}
+
+a.button:active {
+    color: #3b1e46;
+    border: 1px solid  #6f6982;
+    background-color: #d5c6e0;
+    padding: 0.65rem;
+    position: relative;
+    bottom: 1.3rem;
+    border-radius: 0.65rem;
+    text-decoration: none;
+    filter: drop-shadow(.3rem .3rem 0.2rem #c7c7c7);
+    }
+
+    main {
+        background-color: #eee;
+        padding: 25px;}
+    

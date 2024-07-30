@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+    background-color:#A5A1B5; }
+h1 { 
+    color: #eade85;
+    background-color: #292441; 
+    padding: 20px; }
+p
+    {
+    margin: 20px; }
+
+h2 {
+    color: #eade85;
+    background-color: #292441;
+    padding: 10px; }
+
+    a {
+        color: black; }
