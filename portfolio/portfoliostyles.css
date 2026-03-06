@@ -1,0 +1,1178 @@
+
+/* nav section*/
+
+
+.navigation header nav h1 {
+    font-size: 2rem;
+    display: flex;
+    color: #13233d;
+    justify-content: flex-end;
+    align-items: center;
+    padding:0.5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+
+  .navigation nav ul {
+    font-size: 1.05rem;
+    text-decoration: none;
+    justify-content:flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation nav a {
+    text-decoration: none;
+    padding:1rem;
+    color: #13233d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation nav a:hover {
+    text-decoration: underline;
+}
+
+.navigation nav li {
+    display: inline;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+
+/*index*/
+
+.wrapper7 .material-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom:2rem;
+    color:#13233d;
+}
+
+#bio {
+    background-color: #13233d;
+    border-radius:25px;
+}
+
+#preview {
+    background-color:rgb(249, 239, 225);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+
+#bio .left {
+    padding-left: 5rem;
+    max-width: 100%;
+    padding-top: 2rem;
+    padding-bottom:5rem;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+#bio .left p {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(249, 239, 225);
+}
+
+#bio .left h1 {
+    text-align: left;
+    font-size: 3rem;
+    font-family: playfair display;
+    color:rgb(249, 239, 225);
+}
+
+#bio .left h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: playfair display;
+    color:rgb(249, 239, 225);
+}
+
+#bio .left img {
+    max-width: 100%;
+    height: auto; 
+    margin-top: 2.5rem;
+    border-radius: 50%;
+}
+
+#bio .right {
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom:5rem;
+    justify-content: center;
+    text-align: right;
+    
+}
+
+#bio .right h1 {
+    text-align: right;
+    font-size: 3rem;
+    font-family: playfair display;
+    color: rgb(249, 239, 225);
+    border-bottom: 0.12rem  solid rgb(249, 239, 225);
+    margin: 0.25rem;
+    padding: 0.15;
+}
+
+#bio .right h2 {
+    text-align: right;
+    font-size: 1.5rem;
+    font-family: playfair display;
+    color: rgb(249, 239, 225);
+    
+}
+
+#bio .right p {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(249, 239, 225);
+}
+
+/*preview*/
+
+#preview h1{
+    text-align: left;
+    font-size: 3rem;
+    font-family: playfair display;
+    color: #13233d;
+}
+
+#preview {
+    border-bottom: 0.12rem solid #13233d;
+    margin-bottom: 2rem;
+}
+
+/*preview 2 which is coming first for some goddamn reason*/
+
+#preview2 {
+    margin-bottom:1rem;
+    border-radius:25px;
+    border:0.12rem dotted #13233d;
+}
+
+#preview2 .left {
+    max-width: 100%;
+    justify-content: center;
+    text-align: left;
+    border-right: 0.12rem dotted #13233d;
+    margin:3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+#preview2 .left p {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #13233d;
+}
+
+#preview2 .left h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: playfair display;
+    color: #13233d;
+}
+
+#preview2 .left h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: playfair display;
+    color: #13233d;
+}
+
+#preview2 .left img {
+    max-width: 20rem;
+    max-height: 20rem; 
+    height: auto;
+    margin-top: 2.5rem;
+}
+
+#preview2 .right {
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom:5rem;
+    justify-content: center;
+    text-align: right;
+}
+
+#preview2 .right h1 {
+    text-align: right;
+    font-size: 2rem;
+    font-family: playfair display;
+    color: #13233d;
+    text-decoration: none;
+}
+
+#preview2 .right h2 {
+    text-align: right;
+    font-size: 2rem;
+    font-family: playfair display;
+    color: #13233d;
+}
+
+#preview2 .right p {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #13233d;
+}
+
+#preview2 .right a {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #13233d;
+}
+
+#preview2 .right a:hover {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #13233d;
+    text-decoration: none;
+}
+
+/*preview 1*/
+
+#preview1 {
+    background-color: #13233d;
+    margin-bottom: 5rem;
+    border-radius:25px;
+}
+
+#preview1 .left {
+    max-width: 100%;
+    justify-content: center;
+    text-align: left;
+    border-right: 0.12rem dotted rgb(249, 239, 225);
+    margin:3rem;
+    padding: 1rem;
+    
+}
+
+#preview1 .left p {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  rgb(249, 239, 225);
+}
+
+#preview1 .left h1 {
+    text-align: left;
+    font-size: 3rem;
+    font-family: playfair display;
+    color: rgb(249, 239, 225);
+}
+
+#preview1 .left h2 {
+    text-align: left;
+    font-size: 2rem;
+    font-family: playfair display;
+    color: rgb(249, 239, 225);
+    padding-top: 0;
+}
+
+#preview1 .left img {
+    max-width: 100%;
+    height: auto; 
+    margin-top: 2.5rem;
+    border-radius: 50%;
+}
+
+#preview1 .right {
+    max-width: 100%;
+    justify-content: center;
+    text-align: right;
+    padding-top: 5rem;
+}
+
+#preview1 .right h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: playfair display;
+    color: rgb(249, 239, 225);
+    border-bottom: none;
+}
+
+#preview1 .right h2 {
+    text-align: right;
+    font-size: 1.5rem;
+    font-family: playfair display;
+    color: rgb(249, 239, 225);
+}
+
+#preview1 .right p {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  rgb(249, 239, 225);
+}
+
+#preview1 .left a {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(249, 239, 225);
+}
+
+#preview1 .left a:hover {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(249, 239, 225);
+    text-decoration: none;
+}
+
+
+/*resume*/
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr, max-content, 1fr;
+    grid-template-rows: 1fr, 1fr;
+}
+
+.wrapper2 main {
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 2.5rem;
+    background-color: #13233d;
+    border-radius:25px;
+    
+}
+
+.wrapper2 main p {
+    color: rgb(249, 239, 225);
+    
+}
+
+.wrapper2 .emptyspaceleft {
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 6rem;
+}
+.wrapper2 .emptyspaceright {
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2; 
+    padding: 6rem;
+}
+
+.wrapper2 h1 {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: xx-large;
+    text-transform:uppercase;
+    color: rgb(249, 239, 225);
+}
+
+.wrapper2 h2 {
+    font-family: "Playfair Display",serif;
+    text-align: left;
+    font-size: x-large;
+    color:  rgb(249, 239, 225);
+    border-bottom-style: solid;
+    border-bottom: 0.12rem solid  rgb(249, 239, 225);    
+}
+
+.wrapper2 h3 {
+    text-align: left;
+    font-size: medium;
+    padding-bottom: 0.25rem;
+    margin: 0;
+    color: rgb(249, 239, 225);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.wrapper2 li {
+    font-family: serif;
+    list-style-type:square;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: rgb(249, 239, 225);
+}
+
+
+
+.wrapper2 h4 {
+    text-align: left;
+    font-size: medium;
+    font-style: italic;
+    font-weight: 100;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+    color:  rgb(249, 239, 225);
+
+}
+
+.wrapper2 .theimg {
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5rem;
+}
+
+.wrapper2 img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: 0.12rem solid #13233d;
+}
+
+.wrapper2 .links {
+    color: rgb(249, 239, 225);
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper2 a {
+    color: rgb(249, 239, 225);
+}
+
+.wrapper2 a:hover {
+    text-decoration: none;
+}
+
+/*umass press*/
+/*main and grid container right same as preview in index above*/
+
+#written {
+    margin-bottom:1rem;
+    border-radius:25px;
+    background-color: #13233d;
+}
+
+#written .left {
+    max-width: 100%;
+    justify-content: center;
+    text-align: left;
+    border-right: 0.12rem dotted rgb(249, 239, 225);
+    margin:3rem;
+    padding: 2rem;
+    padding-left: 0;
+}
+
+#written .left p {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(249, 239, 225);;
+}
+
+#written .left h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: playfair display;
+    color:rgb(249, 239, 225);
+    border-bottom: none;
+}
+
+#written .left h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: playfair display;
+    color:rgb(249, 239, 225);
+}
+
+#written .left img {
+    max-width: 20rem;
+    max-height: 20rem; 
+    height: auto;
+    margin-top: 2.5rem;
+}
+
+#written .right {
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom:5rem;
+    justify-content: center;
+    text-align: right;
+}
+
+#written .right h1 {
+    text-align: right;
+    font-size: 2rem;
+    font-family: playfair display;
+    color: rgb(249, 239, 225);
+    text-decoration: none;
+}
+
+#written .right h2 {
+    text-align: right;
+    font-size: 2rem;
+    font-family: playfair display;
+    color:rgb(249, 239, 225);
+}
+
+#written .right p {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(249, 239, 225);
+}
+
+#written .right a {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(249, 239, 225);
+}
+
+#written .right a:hover {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(249, 239, 225);
+    text-decoration: underline;
+}
+
+/*umass gallery*/
+
+
+.wrapper8 {
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
+  grid-auto-rows: auto;
+  gap: 16px;
+}
+
+
+.wrapper8 .grid-item:nth-child(even) {
+  grid-column: 2;
+}
+
+
+.wrapper8 .grid-item:nth-child(odd) {
+  grid-column: 3;
+}
+
+
+.wrapper8 .grid-item {
+    overflow: hidden;
+}
+
+
+.wrapper8 .grid-item img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    display: block;
+    padding: 1rem;
+}
+
+
+.wrapper8 .emptyspaceleft {
+    grid-column-start:1;
+    grid-column-end:2 ;
+    grid-row-start:1 ;
+    grid-row-end:18;
+}
+
+
+.wrapper8 .emptyspaceright {
+    grid-column-start:4;
+    grid-column-end:5 ;
+    grid-row-start: 1;
+    grid-row-end:18;
+}
+
+
+/*portfolio*/
+
+#collegian, #jabberwocky, #mother, #coding{
+    background-color:  rgb(249, 239, 225);
+    border:0.12rem dotted #13233d;
+    border-radius: 25px;
+    margin-bottom: 1.5rem;
+}
+
+#coding {
+    margin-bottom: 5rem;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-containerright {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 3rem;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.grid-containerleft {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 3rem;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.left {
+    padding-left: 5rem;
+    max-width: 100%;
+    padding-top: 5rem;
+    padding-bottom:5rem;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+.left .material-icons {
+    color: #13233d;
+    font-size: 10rem;
+}
+
+.right {
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom:5rem;
+    justify-content: center;
+    text-align: right;
+}
+
+.right h1 {
+    text-align: right;
+    font-size: 1.5rem;
+    font-family: playfair display;
+    color: #13233d;
+    border-bottom: 0.1rem #13233d solid;
+    padding-bottom: 1rem;
+
+}
+
+.right h2 {
+    text-align: right;
+    font-size: 1.5rem;
+    font-family: playfair display;
+    color: #13233d;
+}
+
+.right p {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #13233d;
+}
+
+.right button {
+    background-color: #13233d;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  rgb(249, 239, 225);
+    text-align: center;
+    float: right;
+    border: #13233d;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    cursor: pointer;
+}
+
+.right button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+}
+
+/*more portfolio styling*/
+
+#umasspress, #scribe, #indesignwork, #atl {
+    background-color: #13233d;
+    border-radius: 25px;
+    margin-bottom: 1.5rem;
+
+}
+
+.left {
+    padding-left: 5rem;
+    max-width: 100%;
+    padding-top: 2rem;
+    padding-bottom:5rem;
+    justify-content: center;
+    text-align: left;
+}
+
+.left p {
+    line-height: 1.5;
+    font-size: 0.90rem;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  rgb(249, 239, 225);
+}
+
+.left h1 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: playfair display;
+    color: rgb(249, 239, 225);
+    border-bottom: 0.1rem  rgb(249, 239, 225) solid;
+    padding-bottom: 1rem;
+}
+
+.left h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: playfair display;
+    color:  rgb(249, 239, 225);
+}
+
+.right {
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom:5rem;
+    justify-content: center;
+    text-align: right; 
+}
+
+.right .material-icons {
+    color:  rgb(249, 239, 225);
+    font-size: 10rem;
+}
+
+.left button {
+    background-color:  rgb(249, 239, 225);
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #13233d;
+    text-align: center;
+    float: left;
+    border:  rgb(249, 239, 225);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    cursor: pointer;
+}
+
+.left button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+}
+
+.left button a {
+    color: #0D2259;
+    text-decoration: none;
+}
+
+.right button a {
+    color:  rgb(249, 239, 225);
+    text-decoration: none;
+}
+
+
+/*contact*/
+
+.wrapper4 {
+    display: grid;
+    grid-template-columns: 1rem, 2fr, 1fr, 1rem;
+    grid-gap: 4rem;
+    color: #13233d;
+}
+
+
+.wrapper4 .emptyspaceleft{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 2rem;
+}
+
+.wrapper4 .emptyspaceright {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    padding: 2rem;
+
+}
+
+.wrapper4 .right{
+    padding-top: 3rem;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    justify-content: left;
+    text-align: left;
+}
+
+.wrapper4 .left h1 {
+    color: #13233d;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8rem;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.weird h1 {
+    color: #13233d;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10rem;
+    border: none;
+    padding-left: 3rem;
+    line-height: 1rem;
+    margin: 0;
+}
+
+.wrapper4 .left .material-icons {
+    color:#13233d;
+    font-size: 9rem;
+    font-weight: 100;
+}
+
+.wrapper4 h2 a {
+    color:  #13233d;
+    font-family: Space Grotesk;
+    font-weight: 10;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.left h2 {
+    padding-top: 5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper4 .left {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.wrapper4 h3 {
+    padding-top: 3rem;
+    color: #13233d;
+    font-family: Space Grotesk;
+    font-weight: 10;
+    text-align: left;
+}
+
+.wrapper4 h4 {
+    color: #13233d;
+    font-family: Space Grotesk;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+
+.wrapper4 a{
+    color: #13233d;
+    font-family: Space Grotesk;
+    text-decoration: none;
+}
+
+.wrapper4 a:hover{
+    color: #6887d1;
+    font-family: Space Grotesk;
+    text-decoration: underline;
+}
+
+.wrapper4 a:visited {
+    color: #13233d;
+    font-family: Space Grotesk;
+    text-decoration: none;
+}
+
+/*exercise page*/
+
+/*.wrapper6 {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr, max-content, 1fr;
+    grid-template-rows: 1fr, 1fr;
+    background-color: antiquewhite;
+}
+
+.wrapper6 main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: rem;
+    background-color: antiquewhite;
+}
+
+.wrapper6 .emptyspaceleft {
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 4rem;
+}
+.wrapper6 .emptyspaceright {
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2; 
+    padding: 4rem;
+}
+
+.wrapper6 h1 {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: xx-large;
+    text-transform:uppercase;
+    color: #0D2259;
+    border-bottom: 0.12rem solid #0D2259;
+    margin: 1rem;
+}
+
+.wrapper6 ul {
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper6 li a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    font-size: 1rem;
+    color: #0D2259;
+}
+
+.wrapper6 li a:hover{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    font-size: 1rem;
+    color: #6887d1;
+    text-decoration: none;
+}
+
+.wrapper6 li {
+    list-style-type: none;
+}
+
+.wrapper6 h2 {
+    font-family: "Playfair Display",serif;
+    text-align: left;
+    font-size: x-large;
+    color: #0D2259;
+    border-bottom-style: solid;
+    border-bottom: 0.12rem solid #0D2259;  
+    padding: 1rem;  
+}*
+
+/*general*/
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #13233d;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: rgb(249, 239, 225);
+    margin-top: 10rem;
+  }
+ footer .material-icons{
+    color: rgb(249, 239, 225);
+    font-size: 1.5rem;
+    display: inline;
+ }
+
+  body {
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(249, 239, 225);}
+
+
+/*attempt to fix phone/tablet/window orientation*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+
+.main,
+.grid-container,
+.grid-containerright,
+.grid-containerleft {
+    grid-template-columns: 1fr;
+}
+
+/* remove massive side padding */
+.left,
+.right {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+}
+
+/* navigation wraps nicely */
+.navigation nav ul {
+    justify-content: center;
+}
+
+/* resume layout collapses */
+.wrapper2 {
+    grid-template-columns: 1fr;
+}
+
+.wrapper2 main {
+    grid-column: 1;
+}
+
+/* gallery becomes centered */
+.wrapper8 {
+    grid-template-columns: 1fr;
+}
+
+.wrapper8 .grid-item {
+    grid-column: 1 !important;
+}
+
+}
+
+@media (max-width: 768px) {
+
+/* ---------- NAV ---------- */
+
+.navigation header nav h1 {
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.navigation nav ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------- TEXT SCALING ---------- */
+
+h1 { font-size: 2rem !important; }
+h2 { font-size: 1.3rem !important; }
+p  { font-size: 1rem !important; }
+
+/* ---------- BIO + PREVIEWS STACK ---------- */
+
+.grid-container,
+.grid-containerright,
+.grid-containerleft {
+    grid-template-columns: 1fr;
+}
+
+#bio .left,
+#bio .right,
+#preview1 .left,
+#preview1 .right,
+#preview2 .left,
+#preview2 .right,
+#written .left,
+#written .right {
+    text-align: left;
+    padding: 2rem;
+    border: none;
+}
+
+/* ---------- REMOVE HUGE MARGINS ---------- */
+
+.left,
+.right {
+    padding: 1.5rem;
+}
+
+/* ---------- ICONS ---------- */
+
+.material-icons {
+    font-size: 4rem !important;
+}
+
+/* ---------- CONTACT PAGE ---------- */
+
+.wrapper4 {
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.wrapper4 .left,
+.wrapper4 .right {
+    grid-column: 1;
+}
+
+/* giant typography fix */
+.wrapper4 .left h1,
+.weird h1 {
+    font-size: 3rem;
+    line-height: normal;
+}
+
+/* ---------- BUTTONS ---------- */
+
+button {
+    width: 100%;
+    float: none;
+}
+
+}
+
+@media (max-width: 480px) {
+
+body {
+    padding: 0.5rem;
+}
+
+.navigation nav a {
+    padding: 0.5rem;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+}
